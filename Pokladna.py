@@ -1,6 +1,6 @@
 print("Vítejte v obchodě")
 print("Elektronika, Potraviny, Oblečení")
-print("Napíš odejit pokud bideš chtíit skončit s nakupováním")
+print("Napíš odejít pokud budeš chtít ukončit nákup")
 
 run = True
 Zbozi = []
@@ -12,7 +12,7 @@ while run:
     if(kde == "Elektronika"):
         print("Vítej v elektonice")
         elektronika = ["Počítač - 10000kč", "Telefon - 8000kč", "Kamera - 12000kč"]
-        print("Vyber jsi věc 1-Počítač, 2-Telefon, 3-Kamera: ")
+        print("Vyber jsi věc Počítač, Telefon, Kamera: ")
         co = input("Zadej zboží: ")
         Zbozi.append (co)
         if (co == "Počítač"):
@@ -26,7 +26,7 @@ while run:
     if(kde == "Potraviny"):
         print("Vítej v potravinách")
         potraviny = ["Chelba - 130kč", "Rohlík - 2kč", "Okurka - 50kč"]
-        print("Vyber jsi věc 1-Chleba, 2-Rohlík, 3-Okurka: ")
+        print("Vyber jsi věc Chleba, Rohlík, Okurka: ")
         co = input("Zadej zboží: ")
         Zbozi.append (co)
         if (co == "Chleba"):
@@ -40,7 +40,7 @@ while run:
     if(kde =="Oblečení"):
         print("Vítej v oblečení")
         oblečení = ["Tričko - 1000", "Kalhoty - 800kč", "Ponožky - 100kč"]
-        print("Vyber jsi věc 1-Tryčko, 2-Kalhoty, 3-Ponožky: ")
+        print("Vyber jsi věc Tričko, Kalhoty, Ponožky: ")
         co = input("Zadej zboží: ")
         Zbozi.append (co)
         if (co == "Tričko"):
